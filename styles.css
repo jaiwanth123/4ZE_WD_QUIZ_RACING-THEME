@@ -1,0 +1,112 @@
+
+
+  
+.special-item {
+    margin-right: auto; 
+    
+  }
+.body {
+  background-image:url('final.jpg') ;
+  background-repeat: repeat;
+  background-size: cover;
+  
+   
+}
+.container1{
+
+  height:500px;
+}
+
+
+ol{
+  color:white
+}
+button{
+  font-family: 'Inconsolata', monospace;
+ }
+button:hover{
+  font-family: 'Inconsolata', monospace;
+  background-color: rgb(245 158 11);
+}
+h4{
+  font-family: 'Inconsolata', monospace;
+}
+.topic{
+  font-family: 'Inconsolata', monospace;
+  color:rgb(245 158 11);
+}
+.next{
+  margin-left:500px;
+  position: relative;
+  display:inline-block;
+  top :30px;
+  
+}
+.start{
+  display:inline-block;
+  position:relative;
+  right:550px;
+  top:30px;
+}
+.hide{
+  opacity:1;
+}
+.hey{
+  color:white;
+  font-size:x-large;
+  font-family: 'Inconsolata', monospace;
+}
+
+@media   (max-width: 540px)  {
+  body{
+    max-width: 600px;
+    background-image:url("final.jpg");
+    position: relative;
+    
+    
+  }
+  .question{
+    font-size: 30px;
+    margin-left:200px;
+  }
+  .btn{
+    width:150px;
+  }
+ .conatiner1{
+  max-width:400px;
+ }
+  .next{
+    width:85px;
+    margin-bottom:35px;
+    position: relative;
+    right:100px;
+
+  }
+  .start{
+    position:absolute;
+    top:95%;
+    right:180px;
+    width:85px;
+     
+  }
+  
+  
+  .heading{
+    margin-bottom:50px;
+  }
+  hr{
+    margin-bottom:30px;
+    width:535px;
+  }
+  .ap{
+    margin-top: 65px;
+  }
+
+}
+@media (min-width:481 ) and (max-width:1200) {
+.btn{
+  
+  width:450px;
+}
+
+}
